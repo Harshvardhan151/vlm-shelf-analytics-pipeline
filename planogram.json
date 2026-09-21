@@ -1,0 +1,25 @@
+{
+  "section_name": "Aisle 3 - Carbonated Soft Drinks",
+  "expected_items": [
+    {
+      "brand_name": "Coca-Cola",
+      "expected_facings": 6,
+      "expected_shelf_level": "Middle"
+    },
+    {
+      "brand_name": "Diet Coke",
+      "expected_facings": 4,
+      "expected_shelf_level": "Middle"
+    },
+    {
+      "brand_name": "Sprite",
+      "expected_facings": 4,
+      "expected_shelf_level": "Bottom"
+    },
+    {
+      "brand_name": "Fanta",
+      "expected_facings": 3,
+      "expected_shelf_level": "Bottom"
+    }
+  ]
+}
