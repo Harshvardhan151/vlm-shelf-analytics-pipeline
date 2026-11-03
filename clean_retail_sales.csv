@@ -1,0 +1,721 @@
+date,store_id,brand_name,baseline_demand,actual_sales,weekday,is_weekend
+2026-08-06,CA_1,Coca-Cola,10,10,Thursday,False
+2026-08-06,CA_1,Diet Coke,8,8,Thursday,False
+2026-08-06,CA_1,Sprite,12,12,Thursday,False
+2026-08-06,CA_1,Fanta,8,8,Thursday,False
+2026-08-06,CA_1,Doritos,12,12,Thursday,False
+2026-08-06,CA_1,Lays,11,11,Thursday,False
+2026-08-06,CA_1,Colgate Toothpaste,6,6,Thursday,False
+2026-08-06,CA_1,Dove Soap,7,3,Thursday,False
+2026-08-07,CA_1,Coca-Cola,14,14,Friday,False
+2026-08-07,CA_1,Diet Coke,9,9,Friday,False
+2026-08-07,CA_1,Sprite,12,12,Friday,False
+2026-08-07,CA_1,Fanta,8,8,Friday,False
+2026-08-07,CA_1,Doritos,15,15,Friday,False
+2026-08-07,CA_1,Lays,14,14,Friday,False
+2026-08-07,CA_1,Colgate Toothpaste,5,5,Friday,False
+2026-08-07,CA_1,Dove Soap,4,4,Friday,False
+2026-08-08,CA_1,Coca-Cola,14,14,Saturday,True
+2026-08-08,CA_1,Diet Coke,14,14,Saturday,True
+2026-08-08,CA_1,Sprite,11,11,Saturday,True
+2026-08-08,CA_1,Fanta,6,6,Saturday,True
+2026-08-08,CA_1,Doritos,20,20,Saturday,True
+2026-08-08,CA_1,Lays,14,14,Saturday,True
+2026-08-08,CA_1,Colgate Toothpaste,7,7,Saturday,True
+2026-08-08,CA_1,Dove Soap,4,4,Saturday,True
+2026-08-09,CA_1,Coca-Cola,18,18,Sunday,True
+2026-08-09,CA_1,Diet Coke,11,11,Sunday,True
+2026-08-09,CA_1,Sprite,13,13,Sunday,True
+2026-08-09,CA_1,Fanta,10,10,Sunday,True
+2026-08-09,CA_1,Doritos,20,8,Sunday,True
+2026-08-09,CA_1,Lays,17,7,Sunday,True
+2026-08-09,CA_1,Colgate Toothpaste,6,6,Sunday,True
+2026-08-09,CA_1,Dove Soap,8,8,Sunday,True
+2026-08-10,CA_1,Coca-Cola,14,14,Monday,False
+2026-08-10,CA_1,Diet Coke,6,6,Monday,False
+2026-08-10,CA_1,Sprite,10,10,Monday,False
+2026-08-10,CA_1,Fanta,4,2,Monday,False
+2026-08-10,CA_1,Doritos,16,16,Monday,False
+2026-08-10,CA_1,Lays,14,14,Monday,False
+2026-08-10,CA_1,Colgate Toothpaste,4,4,Monday,False
+2026-08-10,CA_1,Dove Soap,5,5,Monday,False
+2026-08-11,CA_1,Coca-Cola,13,13,Tuesday,False
+2026-08-11,CA_1,Diet Coke,7,3,Tuesday,False
+2026-08-11,CA_1,Sprite,12,12,Tuesday,False
+2026-08-11,CA_1,Fanta,6,6,Tuesday,False
+2026-08-11,CA_1,Doritos,12,12,Tuesday,False
+2026-08-11,CA_1,Lays,12,12,Tuesday,False
+2026-08-11,CA_1,Colgate Toothpaste,4,4,Tuesday,False
+2026-08-11,CA_1,Dove Soap,6,6,Tuesday,False
+2026-08-12,CA_1,Coca-Cola,13,13,Wednesday,False
+2026-08-12,CA_1,Diet Coke,6,6,Wednesday,False
+2026-08-12,CA_1,Sprite,11,11,Wednesday,False
+2026-08-12,CA_1,Fanta,8,8,Wednesday,False
+2026-08-12,CA_1,Doritos,16,16,Wednesday,False
+2026-08-12,CA_1,Lays,13,13,Wednesday,False
+2026-08-12,CA_1,Colgate Toothpaste,2,1,Wednesday,False
+2026-08-12,CA_1,Dove Soap,6,6,Wednesday,False
+2026-08-13,CA_1,Coca-Cola,14,14,Thursday,False
+2026-08-13,CA_1,Diet Coke,10,10,Thursday,False
+2026-08-13,CA_1,Sprite,11,11,Thursday,False
+2026-08-13,CA_1,Fanta,7,3,Thursday,False
+2026-08-13,CA_1,Doritos,16,16,Thursday,False
+2026-08-13,CA_1,Lays,12,12,Thursday,False
+2026-08-13,CA_1,Colgate Toothpaste,5,2,Thursday,False
+2026-08-13,CA_1,Dove Soap,7,7,Thursday,False
+2026-08-14,CA_1,Coca-Cola,13,13,Friday,False
+2026-08-14,CA_1,Diet Coke,10,10,Friday,False
+2026-08-14,CA_1,Sprite,12,12,Friday,False
+2026-08-14,CA_1,Fanta,4,4,Friday,False
+2026-08-14,CA_1,Doritos,16,16,Friday,False
+2026-08-14,CA_1,Lays,11,11,Friday,False
+2026-08-14,CA_1,Colgate Toothpaste,3,3,Friday,False
+2026-08-14,CA_1,Dove Soap,3,3,Friday,False
+2026-08-15,CA_1,Coca-Cola,20,20,Saturday,True
+2026-08-15,CA_1,Diet Coke,8,8,Saturday,True
+2026-08-15,CA_1,Sprite,17,17,Saturday,True
+2026-08-15,CA_1,Fanta,10,10,Saturday,True
+2026-08-15,CA_1,Doritos,21,21,Saturday,True
+2026-08-15,CA_1,Lays,15,15,Saturday,True
+2026-08-15,CA_1,Colgate Toothpaste,7,7,Saturday,True
+2026-08-15,CA_1,Dove Soap,6,6,Saturday,True
+2026-08-16,CA_1,Coca-Cola,14,14,Sunday,True
+2026-08-16,CA_1,Diet Coke,13,13,Sunday,True
+2026-08-16,CA_1,Sprite,15,15,Sunday,True
+2026-08-16,CA_1,Fanta,11,11,Sunday,True
+2026-08-16,CA_1,Doritos,20,20,Sunday,True
+2026-08-16,CA_1,Lays,20,20,Sunday,True
+2026-08-16,CA_1,Colgate Toothpaste,7,7,Sunday,True
+2026-08-16,CA_1,Dove Soap,7,7,Sunday,True
+2026-08-17,CA_1,Coca-Cola,14,14,Monday,False
+2026-08-17,CA_1,Diet Coke,10,10,Monday,False
+2026-08-17,CA_1,Sprite,11,11,Monday,False
+2026-08-17,CA_1,Fanta,7,7,Monday,False
+2026-08-17,CA_1,Doritos,15,6,Monday,False
+2026-08-17,CA_1,Lays,11,11,Monday,False
+2026-08-17,CA_1,Colgate Toothpaste,4,1,Monday,False
+2026-08-17,CA_1,Dove Soap,5,5,Monday,False
+2026-08-18,CA_1,Coca-Cola,10,4,Tuesday,False
+2026-08-18,CA_1,Diet Coke,6,6,Tuesday,False
+2026-08-18,CA_1,Sprite,9,9,Tuesday,False
+2026-08-18,CA_1,Fanta,8,8,Tuesday,False
+2026-08-18,CA_1,Doritos,15,15,Tuesday,False
+2026-08-18,CA_1,Lays,14,14,Tuesday,False
+2026-08-18,CA_1,Colgate Toothpaste,5,5,Tuesday,False
+2026-08-18,CA_1,Dove Soap,5,5,Tuesday,False
+2026-08-19,CA_1,Coca-Cola,11,11,Wednesday,False
+2026-08-19,CA_1,Diet Coke,8,8,Wednesday,False
+2026-08-19,CA_1,Sprite,11,11,Wednesday,False
+2026-08-19,CA_1,Fanta,7,7,Wednesday,False
+2026-08-19,CA_1,Doritos,16,16,Wednesday,False
+2026-08-19,CA_1,Lays,13,13,Wednesday,False
+2026-08-19,CA_1,Colgate Toothpaste,5,5,Wednesday,False
+2026-08-19,CA_1,Dove Soap,7,7,Wednesday,False
+2026-08-20,CA_1,Coca-Cola,10,10,Thursday,False
+2026-08-20,CA_1,Diet Coke,8,8,Thursday,False
+2026-08-20,CA_1,Sprite,10,10,Thursday,False
+2026-08-20,CA_1,Fanta,7,7,Thursday,False
+2026-08-20,CA_1,Doritos,12,12,Thursday,False
+2026-08-20,CA_1,Lays,13,13,Thursday,False
+2026-08-20,CA_1,Colgate Toothpaste,6,6,Thursday,False
+2026-08-20,CA_1,Dove Soap,5,5,Thursday,False
+2026-08-21,CA_1,Coca-Cola,13,13,Friday,False
+2026-08-21,CA_1,Diet Coke,7,7,Friday,False
+2026-08-21,CA_1,Sprite,11,11,Friday,False
+2026-08-21,CA_1,Fanta,7,7,Friday,False
+2026-08-21,CA_1,Doritos,12,12,Friday,False
+2026-08-21,CA_1,Lays,12,12,Friday,False
+2026-08-21,CA_1,Colgate Toothpaste,5,5,Friday,False
+2026-08-21,CA_1,Dove Soap,5,5,Friday,False
+2026-08-22,CA_1,Coca-Cola,14,14,Saturday,True
+2026-08-22,CA_1,Diet Coke,10,10,Saturday,True
+2026-08-22,CA_1,Sprite,15,15,Saturday,True
+2026-08-22,CA_1,Fanta,7,3,Saturday,True
+2026-08-22,CA_1,Doritos,21,21,Saturday,True
+2026-08-22,CA_1,Lays,14,14,Saturday,True
+2026-08-22,CA_1,Colgate Toothpaste,3,1,Saturday,True
+2026-08-22,CA_1,Dove Soap,4,4,Saturday,True
+2026-08-23,CA_1,Coca-Cola,18,18,Sunday,True
+2026-08-23,CA_1,Diet Coke,14,14,Sunday,True
+2026-08-23,CA_1,Sprite,17,17,Sunday,True
+2026-08-23,CA_1,Fanta,6,2,Sunday,True
+2026-08-23,CA_1,Doritos,22,22,Sunday,True
+2026-08-23,CA_1,Lays,15,15,Sunday,True
+2026-08-23,CA_1,Colgate Toothpaste,4,2,Sunday,True
+2026-08-23,CA_1,Dove Soap,4,4,Sunday,True
+2026-08-24,CA_1,Coca-Cola,14,14,Monday,False
+2026-08-24,CA_1,Diet Coke,6,6,Monday,False
+2026-08-24,CA_1,Sprite,12,12,Monday,False
+2026-08-24,CA_1,Fanta,6,3,Monday,False
+2026-08-24,CA_1,Doritos,14,14,Monday,False
+2026-08-24,CA_1,Lays,11,4,Monday,False
+2026-08-24,CA_1,Colgate Toothpaste,2,2,Monday,False
+2026-08-24,CA_1,Dove Soap,5,5,Monday,False
+2026-08-25,CA_1,Coca-Cola,14,14,Tuesday,False
+2026-08-25,CA_1,Diet Coke,10,10,Tuesday,False
+2026-08-25,CA_1,Sprite,11,11,Tuesday,False
+2026-08-25,CA_1,Fanta,5,2,Tuesday,False
+2026-08-25,CA_1,Doritos,16,7,Tuesday,False
+2026-08-25,CA_1,Lays,11,5,Tuesday,False
+2026-08-25,CA_1,Colgate Toothpaste,5,2,Tuesday,False
+2026-08-25,CA_1,Dove Soap,7,7,Tuesday,False
+2026-08-26,CA_1,Coca-Cola,11,11,Wednesday,False
+2026-08-26,CA_1,Diet Coke,10,10,Wednesday,False
+2026-08-26,CA_1,Sprite,12,5,Wednesday,False
+2026-08-26,CA_1,Fanta,6,6,Wednesday,False
+2026-08-26,CA_1,Doritos,12,12,Wednesday,False
+2026-08-26,CA_1,Lays,13,13,Wednesday,False
+2026-08-26,CA_1,Colgate Toothpaste,3,3,Wednesday,False
+2026-08-26,CA_1,Dove Soap,4,2,Wednesday,False
+2026-08-27,CA_1,Coca-Cola,14,14,Thursday,False
+2026-08-27,CA_1,Diet Coke,8,8,Thursday,False
+2026-08-27,CA_1,Sprite,12,12,Thursday,False
+2026-08-27,CA_1,Fanta,7,7,Thursday,False
+2026-08-27,CA_1,Doritos,15,7,Thursday,False
+2026-08-27,CA_1,Lays,11,11,Thursday,False
+2026-08-27,CA_1,Colgate Toothpaste,6,3,Thursday,False
+2026-08-27,CA_1,Dove Soap,4,4,Thursday,False
+2026-08-28,CA_1,Coca-Cola,13,13,Friday,False
+2026-08-28,CA_1,Diet Coke,6,6,Friday,False
+2026-08-28,CA_1,Sprite,8,8,Friday,False
+2026-08-28,CA_1,Fanta,7,7,Friday,False
+2026-08-28,CA_1,Doritos,12,12,Friday,False
+2026-08-28,CA_1,Lays,10,10,Friday,False
+2026-08-28,CA_1,Colgate Toothpaste,4,4,Friday,False
+2026-08-28,CA_1,Dove Soap,5,2,Friday,False
+2026-08-29,CA_1,Coca-Cola,14,14,Saturday,True
+2026-08-29,CA_1,Diet Coke,8,8,Saturday,True
+2026-08-29,CA_1,Sprite,17,17,Saturday,True
+2026-08-29,CA_1,Fanta,10,10,Saturday,True
+2026-08-29,CA_1,Doritos,20,20,Saturday,True
+2026-08-29,CA_1,Lays,17,17,Saturday,True
+2026-08-29,CA_1,Colgate Toothpaste,7,3,Saturday,True
+2026-08-29,CA_1,Dove Soap,7,3,Saturday,True
+2026-08-30,CA_1,Coca-Cola,14,14,Sunday,True
+2026-08-30,CA_1,Diet Coke,13,5,Sunday,True
+2026-08-30,CA_1,Sprite,15,15,Sunday,True
+2026-08-30,CA_1,Fanta,11,4,Sunday,True
+2026-08-30,CA_1,Doritos,22,22,Sunday,True
+2026-08-30,CA_1,Lays,15,15,Sunday,True
+2026-08-30,CA_1,Colgate Toothpaste,4,4,Sunday,True
+2026-08-30,CA_1,Dove Soap,10,10,Sunday,True
+2026-08-31,CA_1,Coca-Cola,14,14,Monday,False
+2026-08-31,CA_1,Diet Coke,7,7,Monday,False
+2026-08-31,CA_1,Sprite,11,11,Monday,False
+2026-08-31,CA_1,Fanta,8,8,Monday,False
+2026-08-31,CA_1,Doritos,14,6,Monday,False
+2026-08-31,CA_1,Lays,13,13,Monday,False
+2026-08-31,CA_1,Colgate Toothpaste,6,6,Monday,False
+2026-08-31,CA_1,Dove Soap,4,4,Monday,False
+2026-09-01,CA_1,Coca-Cola,10,10,Tuesday,False
+2026-09-01,CA_1,Diet Coke,10,10,Tuesday,False
+2026-09-01,CA_1,Sprite,11,11,Tuesday,False
+2026-09-01,CA_1,Fanta,4,4,Tuesday,False
+2026-09-01,CA_1,Doritos,13,13,Tuesday,False
+2026-09-01,CA_1,Lays,11,11,Tuesday,False
+2026-09-01,CA_1,Colgate Toothpaste,2,1,Tuesday,False
+2026-09-01,CA_1,Dove Soap,7,7,Tuesday,False
+2026-09-02,CA_1,Coca-Cola,10,10,Wednesday,False
+2026-09-02,CA_1,Diet Coke,9,4,Wednesday,False
+2026-09-02,CA_1,Sprite,9,9,Wednesday,False
+2026-09-02,CA_1,Fanta,7,7,Wednesday,False
+2026-09-02,CA_1,Doritos,12,12,Wednesday,False
+2026-09-02,CA_1,Lays,11,11,Wednesday,False
+2026-09-02,CA_1,Colgate Toothpaste,6,6,Wednesday,False
+2026-09-02,CA_1,Dove Soap,4,4,Wednesday,False
+2026-09-03,CA_1,Coca-Cola,14,14,Thursday,False
+2026-09-03,CA_1,Diet Coke,7,7,Thursday,False
+2026-09-03,CA_1,Sprite,9,4,Thursday,False
+2026-09-03,CA_1,Fanta,5,5,Thursday,False
+2026-09-03,CA_1,Doritos,15,15,Thursday,False
+2026-09-03,CA_1,Lays,12,12,Thursday,False
+2026-09-03,CA_1,Colgate Toothpaste,5,2,Thursday,False
+2026-09-03,CA_1,Dove Soap,7,7,Thursday,False
+2026-09-04,CA_1,Coca-Cola,13,13,Friday,False
+2026-09-04,CA_1,Diet Coke,6,6,Friday,False
+2026-09-04,CA_1,Sprite,11,11,Friday,False
+2026-09-04,CA_1,Fanta,6,6,Friday,False
+2026-09-04,CA_1,Doritos,13,13,Friday,False
+2026-09-04,CA_1,Lays,12,12,Friday,False
+2026-09-04,CA_1,Colgate Toothpaste,3,3,Friday,False
+2026-09-04,CA_1,Dove Soap,5,5,Friday,False
+2026-09-05,CA_1,Coca-Cola,18,18,Saturday,True
+2026-09-05,CA_1,Diet Coke,13,13,Saturday,True
+2026-09-05,CA_1,Sprite,15,15,Saturday,True
+2026-09-05,CA_1,Fanta,8,8,Saturday,True
+2026-09-05,CA_1,Doritos,21,21,Saturday,True
+2026-09-05,CA_1,Lays,15,15,Saturday,True
+2026-09-05,CA_1,Colgate Toothpaste,6,2,Saturday,True
+2026-09-05,CA_1,Dove Soap,10,10,Saturday,True
+2026-09-06,CA_1,Coca-Cola,18,18,Sunday,True
+2026-09-06,CA_1,Diet Coke,13,13,Sunday,True
+2026-09-06,CA_1,Sprite,11,11,Sunday,True
+2026-09-06,CA_1,Fanta,11,11,Sunday,True
+2026-09-06,CA_1,Doritos,22,22,Sunday,True
+2026-09-06,CA_1,Lays,17,17,Sunday,True
+2026-09-06,CA_1,Colgate Toothpaste,3,3,Sunday,True
+2026-09-06,CA_1,Dove Soap,6,6,Sunday,True
+2026-09-07,CA_1,Coca-Cola,11,11,Monday,False
+2026-09-07,CA_1,Diet Coke,6,6,Monday,False
+2026-09-07,CA_1,Sprite,8,8,Monday,False
+2026-09-07,CA_1,Fanta,7,7,Monday,False
+2026-09-07,CA_1,Doritos,14,14,Monday,False
+2026-09-07,CA_1,Lays,13,13,Monday,False
+2026-09-07,CA_1,Colgate Toothpaste,6,6,Monday,False
+2026-09-07,CA_1,Dove Soap,4,1,Monday,False
+2026-09-08,CA_1,Coca-Cola,10,10,Tuesday,False
+2026-09-08,CA_1,Diet Coke,8,8,Tuesday,False
+2026-09-08,CA_1,Sprite,9,9,Tuesday,False
+2026-09-08,CA_1,Fanta,6,6,Tuesday,False
+2026-09-08,CA_1,Doritos,16,16,Tuesday,False
+2026-09-08,CA_1,Lays,14,14,Tuesday,False
+2026-09-08,CA_1,Colgate Toothpaste,6,6,Tuesday,False
+2026-09-08,CA_1,Dove Soap,4,4,Tuesday,False
+2026-09-09,CA_1,Coca-Cola,10,10,Wednesday,False
+2026-09-09,CA_1,Diet Coke,10,4,Wednesday,False
+2026-09-09,CA_1,Sprite,10,10,Wednesday,False
+2026-09-09,CA_1,Fanta,8,8,Wednesday,False
+2026-09-09,CA_1,Doritos,16,16,Wednesday,False
+2026-09-09,CA_1,Lays,11,5,Wednesday,False
+2026-09-09,CA_1,Colgate Toothpaste,6,6,Wednesday,False
+2026-09-09,CA_1,Dove Soap,5,5,Wednesday,False
+2026-09-10,CA_1,Coca-Cola,14,14,Thursday,False
+2026-09-10,CA_1,Diet Coke,8,8,Thursday,False
+2026-09-10,CA_1,Sprite,12,12,Thursday,False
+2026-09-10,CA_1,Fanta,5,5,Thursday,False
+2026-09-10,CA_1,Doritos,12,12,Thursday,False
+2026-09-10,CA_1,Lays,12,12,Thursday,False
+2026-09-10,CA_1,Colgate Toothpaste,2,2,Thursday,False
+2026-09-10,CA_1,Dove Soap,6,2,Thursday,False
+2026-09-11,CA_1,Coca-Cola,11,11,Friday,False
+2026-09-11,CA_1,Diet Coke,6,6,Friday,False
+2026-09-11,CA_1,Sprite,8,8,Friday,False
+2026-09-11,CA_1,Fanta,6,6,Friday,False
+2026-09-11,CA_1,Doritos,13,13,Friday,False
+2026-09-11,CA_1,Lays,10,10,Friday,False
+2026-09-11,CA_1,Colgate Toothpaste,6,6,Friday,False
+2026-09-11,CA_1,Dove Soap,5,5,Friday,False
+2026-09-12,CA_1,Coca-Cola,17,17,Saturday,True
+2026-09-12,CA_1,Diet Coke,14,14,Saturday,True
+2026-09-12,CA_1,Sprite,11,11,Saturday,True
+2026-09-12,CA_1,Fanta,8,8,Saturday,True
+2026-09-12,CA_1,Doritos,20,20,Saturday,True
+2026-09-12,CA_1,Lays,15,15,Saturday,True
+2026-09-12,CA_1,Colgate Toothpaste,6,6,Saturday,True
+2026-09-12,CA_1,Dove Soap,7,7,Saturday,True
+2026-09-13,CA_1,Coca-Cola,14,14,Sunday,True
+2026-09-13,CA_1,Diet Coke,8,8,Sunday,True
+2026-09-13,CA_1,Sprite,15,5,Sunday,True
+2026-09-13,CA_1,Fanta,8,3,Sunday,True
+2026-09-13,CA_1,Doritos,21,21,Sunday,True
+2026-09-13,CA_1,Lays,14,14,Sunday,True
+2026-09-13,CA_1,Colgate Toothpaste,3,3,Sunday,True
+2026-09-13,CA_1,Dove Soap,4,4,Sunday,True
+2026-09-14,CA_1,Coca-Cola,11,11,Monday,False
+2026-09-14,CA_1,Diet Coke,6,6,Monday,False
+2026-09-14,CA_1,Sprite,10,10,Monday,False
+2026-09-14,CA_1,Fanta,4,4,Monday,False
+2026-09-14,CA_1,Doritos,12,12,Monday,False
+2026-09-14,CA_1,Lays,14,14,Monday,False
+2026-09-14,CA_1,Colgate Toothpaste,6,6,Monday,False
+2026-09-14,CA_1,Dove Soap,5,5,Monday,False
+2026-09-15,CA_1,Coca-Cola,12,12,Tuesday,False
+2026-09-15,CA_1,Diet Coke,9,9,Tuesday,False
+2026-09-15,CA_1,Sprite,12,12,Tuesday,False
+2026-09-15,CA_1,Fanta,8,8,Tuesday,False
+2026-09-15,CA_1,Doritos,12,12,Tuesday,False
+2026-09-15,CA_1,Lays,13,13,Tuesday,False
+2026-09-15,CA_1,Colgate Toothpaste,4,4,Tuesday,False
+2026-09-15,CA_1,Dove Soap,7,7,Tuesday,False
+2026-09-16,CA_1,Coca-Cola,11,11,Wednesday,False
+2026-09-16,CA_1,Diet Coke,10,10,Wednesday,False
+2026-09-16,CA_1,Sprite,11,11,Wednesday,False
+2026-09-16,CA_1,Fanta,7,7,Wednesday,False
+2026-09-16,CA_1,Doritos,12,5,Wednesday,False
+2026-09-16,CA_1,Lays,12,4,Wednesday,False
+2026-09-16,CA_1,Colgate Toothpaste,6,6,Wednesday,False
+2026-09-16,CA_1,Dove Soap,5,5,Wednesday,False
+2026-09-17,CA_1,Coca-Cola,13,5,Thursday,False
+2026-09-17,CA_1,Diet Coke,8,8,Thursday,False
+2026-09-17,CA_1,Sprite,10,10,Thursday,False
+2026-09-17,CA_1,Fanta,4,4,Thursday,False
+2026-09-17,CA_1,Doritos,15,15,Thursday,False
+2026-09-17,CA_1,Lays,10,10,Thursday,False
+2026-09-17,CA_1,Colgate Toothpaste,4,4,Thursday,False
+2026-09-17,CA_1,Dove Soap,5,5,Thursday,False
+2026-09-18,CA_1,Coca-Cola,12,12,Friday,False
+2026-09-18,CA_1,Diet Coke,6,6,Friday,False
+2026-09-18,CA_1,Sprite,10,10,Friday,False
+2026-09-18,CA_1,Fanta,7,7,Friday,False
+2026-09-18,CA_1,Doritos,14,14,Friday,False
+2026-09-18,CA_1,Lays,14,14,Friday,False
+2026-09-18,CA_1,Colgate Toothpaste,2,2,Friday,False
+2026-09-18,CA_1,Dove Soap,7,7,Friday,False
+2026-09-19,CA_1,Coca-Cola,17,17,Saturday,True
+2026-09-19,CA_1,Diet Coke,10,10,Saturday,True
+2026-09-19,CA_1,Sprite,17,17,Saturday,True
+2026-09-19,CA_1,Fanta,6,6,Saturday,True
+2026-09-19,CA_1,Doritos,17,17,Saturday,True
+2026-09-19,CA_1,Lays,15,15,Saturday,True
+2026-09-19,CA_1,Colgate Toothpaste,8,8,Saturday,True
+2026-09-19,CA_1,Dove Soap,4,4,Saturday,True
+2026-09-20,CA_1,Coca-Cola,14,14,Sunday,True
+2026-09-20,CA_1,Diet Coke,8,3,Sunday,True
+2026-09-20,CA_1,Sprite,13,13,Sunday,True
+2026-09-20,CA_1,Fanta,11,11,Sunday,True
+2026-09-20,CA_1,Doritos,20,20,Sunday,True
+2026-09-20,CA_1,Lays,20,7,Sunday,True
+2026-09-20,CA_1,Colgate Toothpaste,6,6,Sunday,True
+2026-09-20,CA_1,Dove Soap,4,4,Sunday,True
+2026-09-21,CA_1,Coca-Cola,13,13,Monday,False
+2026-09-21,CA_1,Diet Coke,10,10,Monday,False
+2026-09-21,CA_1,Sprite,9,9,Monday,False
+2026-09-21,CA_1,Fanta,6,2,Monday,False
+2026-09-21,CA_1,Doritos,15,6,Monday,False
+2026-09-21,CA_1,Lays,13,13,Monday,False
+2026-09-21,CA_1,Colgate Toothpaste,5,5,Monday,False
+2026-09-21,CA_1,Dove Soap,4,4,Monday,False
+2026-09-22,CA_1,Coca-Cola,13,13,Tuesday,False
+2026-09-22,CA_1,Diet Coke,7,7,Tuesday,False
+2026-09-22,CA_1,Sprite,9,9,Tuesday,False
+2026-09-22,CA_1,Fanta,5,5,Tuesday,False
+2026-09-22,CA_1,Doritos,16,16,Tuesday,False
+2026-09-22,CA_1,Lays,10,4,Tuesday,False
+2026-09-22,CA_1,Colgate Toothpaste,6,6,Tuesday,False
+2026-09-22,CA_1,Dove Soap,7,7,Tuesday,False
+2026-09-23,CA_1,Coca-Cola,13,13,Wednesday,False
+2026-09-23,CA_1,Diet Coke,8,8,Wednesday,False
+2026-09-23,CA_1,Sprite,9,9,Wednesday,False
+2026-09-23,CA_1,Fanta,5,5,Wednesday,False
+2026-09-23,CA_1,Doritos,12,12,Wednesday,False
+2026-09-23,CA_1,Lays,10,10,Wednesday,False
+2026-09-23,CA_1,Colgate Toothpaste,4,4,Wednesday,False
+2026-09-23,CA_1,Dove Soap,7,7,Wednesday,False
+2026-09-24,CA_1,Coca-Cola,13,13,Thursday,False
+2026-09-24,CA_1,Diet Coke,9,9,Thursday,False
+2026-09-24,CA_1,Sprite,10,10,Thursday,False
+2026-09-24,CA_1,Fanta,6,6,Thursday,False
+2026-09-24,CA_1,Doritos,13,13,Thursday,False
+2026-09-24,CA_1,Lays,14,14,Thursday,False
+2026-09-24,CA_1,Colgate Toothpaste,2,2,Thursday,False
+2026-09-24,CA_1,Dove Soap,4,4,Thursday,False
+2026-09-25,CA_1,Coca-Cola,14,14,Friday,False
+2026-09-25,CA_1,Diet Coke,6,2,Friday,False
+2026-09-25,CA_1,Sprite,12,12,Friday,False
+2026-09-25,CA_1,Fanta,6,6,Friday,False
+2026-09-25,CA_1,Doritos,14,14,Friday,False
+2026-09-25,CA_1,Lays,14,14,Friday,False
+2026-09-25,CA_1,Colgate Toothpaste,4,4,Friday,False
+2026-09-25,CA_1,Dove Soap,3,3,Friday,False
+2026-09-26,CA_1,Coca-Cola,14,14,Saturday,True
+2026-09-26,CA_1,Diet Coke,10,10,Saturday,True
+2026-09-26,CA_1,Sprite,15,15,Saturday,True
+2026-09-26,CA_1,Fanta,6,6,Saturday,True
+2026-09-26,CA_1,Doritos,18,18,Saturday,True
+2026-09-26,CA_1,Lays,20,20,Saturday,True
+2026-09-26,CA_1,Colgate Toothpaste,4,4,Saturday,True
+2026-09-26,CA_1,Dove Soap,8,8,Saturday,True
+2026-09-27,CA_1,Coca-Cola,17,6,Sunday,True
+2026-09-27,CA_1,Diet Coke,10,10,Sunday,True
+2026-09-27,CA_1,Sprite,17,17,Sunday,True
+2026-09-27,CA_1,Fanta,8,8,Sunday,True
+2026-09-27,CA_1,Doritos,20,20,Sunday,True
+2026-09-27,CA_1,Lays,15,15,Sunday,True
+2026-09-27,CA_1,Colgate Toothpaste,6,6,Sunday,True
+2026-09-27,CA_1,Dove Soap,7,3,Sunday,True
+2026-09-28,CA_1,Coca-Cola,13,13,Monday,False
+2026-09-28,CA_1,Diet Coke,9,9,Monday,False
+2026-09-28,CA_1,Sprite,12,12,Monday,False
+2026-09-28,CA_1,Fanta,7,7,Monday,False
+2026-09-28,CA_1,Doritos,16,16,Monday,False
+2026-09-28,CA_1,Lays,12,12,Monday,False
+2026-09-28,CA_1,Colgate Toothpaste,3,3,Monday,False
+2026-09-28,CA_1,Dove Soap,4,4,Monday,False
+2026-09-29,CA_1,Coca-Cola,13,5,Tuesday,False
+2026-09-29,CA_1,Diet Coke,7,3,Tuesday,False
+2026-09-29,CA_1,Sprite,11,11,Tuesday,False
+2026-09-29,CA_1,Fanta,4,4,Tuesday,False
+2026-09-29,CA_1,Doritos,14,14,Tuesday,False
+2026-09-29,CA_1,Lays,14,14,Tuesday,False
+2026-09-29,CA_1,Colgate Toothpaste,5,5,Tuesday,False
+2026-09-29,CA_1,Dove Soap,3,3,Tuesday,False
+2026-09-30,CA_1,Coca-Cola,11,11,Wednesday,False
+2026-09-30,CA_1,Diet Coke,6,6,Wednesday,False
+2026-09-30,CA_1,Sprite,10,10,Wednesday,False
+2026-09-30,CA_1,Fanta,6,3,Wednesday,False
+2026-09-30,CA_1,Doritos,16,16,Wednesday,False
+2026-09-30,CA_1,Lays,12,12,Wednesday,False
+2026-09-30,CA_1,Colgate Toothpaste,3,3,Wednesday,False
+2026-09-30,CA_1,Dove Soap,3,3,Wednesday,False
+2026-10-01,CA_1,Coca-Cola,10,10,Thursday,False
+2026-10-01,CA_1,Diet Coke,10,10,Thursday,False
+2026-10-01,CA_1,Sprite,9,9,Thursday,False
+2026-10-01,CA_1,Fanta,8,8,Thursday,False
+2026-10-01,CA_1,Doritos,14,14,Thursday,False
+2026-10-01,CA_1,Lays,14,14,Thursday,False
+2026-10-01,CA_1,Colgate Toothpaste,2,2,Thursday,False
+2026-10-01,CA_1,Dove Soap,6,6,Thursday,False
+2026-10-02,CA_1,Coca-Cola,13,13,Friday,False
+2026-10-02,CA_1,Diet Coke,10,10,Friday,False
+2026-10-02,CA_1,Sprite,12,12,Friday,False
+2026-10-02,CA_1,Fanta,5,5,Friday,False
+2026-10-02,CA_1,Doritos,16,16,Friday,False
+2026-10-02,CA_1,Lays,10,10,Friday,False
+2026-10-02,CA_1,Colgate Toothpaste,2,2,Friday,False
+2026-10-02,CA_1,Dove Soap,4,4,Friday,False
+2026-10-03,CA_1,Coca-Cola,18,18,Saturday,True
+2026-10-03,CA_1,Diet Coke,11,11,Saturday,True
+2026-10-03,CA_1,Sprite,17,17,Saturday,True
+2026-10-03,CA_1,Fanta,8,8,Saturday,True
+2026-10-03,CA_1,Doritos,20,8,Saturday,True
+2026-10-03,CA_1,Lays,14,14,Saturday,True
+2026-10-03,CA_1,Colgate Toothpaste,8,3,Saturday,True
+2026-10-03,CA_1,Dove Soap,6,6,Saturday,True
+2026-10-04,CA_1,Coca-Cola,15,15,Sunday,True
+2026-10-04,CA_1,Diet Coke,11,11,Sunday,True
+2026-10-04,CA_1,Sprite,14,14,Sunday,True
+2026-10-04,CA_1,Fanta,11,11,Sunday,True
+2026-10-04,CA_1,Doritos,20,8,Sunday,True
+2026-10-04,CA_1,Lays,17,17,Sunday,True
+2026-10-04,CA_1,Colgate Toothpaste,4,4,Sunday,True
+2026-10-04,CA_1,Dove Soap,8,8,Sunday,True
+2026-10-05,CA_1,Coca-Cola,11,11,Monday,False
+2026-10-05,CA_1,Diet Coke,6,6,Monday,False
+2026-10-05,CA_1,Sprite,12,5,Monday,False
+2026-10-05,CA_1,Fanta,7,7,Monday,False
+2026-10-05,CA_1,Doritos,15,15,Monday,False
+2026-10-05,CA_1,Lays,12,12,Monday,False
+2026-10-05,CA_1,Colgate Toothpaste,6,6,Monday,False
+2026-10-05,CA_1,Dove Soap,4,4,Monday,False
+2026-10-06,CA_1,Coca-Cola,14,14,Tuesday,False
+2026-10-06,CA_1,Diet Coke,6,6,Tuesday,False
+2026-10-06,CA_1,Sprite,9,9,Tuesday,False
+2026-10-06,CA_1,Fanta,6,6,Tuesday,False
+2026-10-06,CA_1,Doritos,16,16,Tuesday,False
+2026-10-06,CA_1,Lays,11,11,Tuesday,False
+2026-10-06,CA_1,Colgate Toothpaste,3,3,Tuesday,False
+2026-10-06,CA_1,Dove Soap,3,3,Tuesday,False
+2026-10-07,CA_1,Coca-Cola,10,10,Wednesday,False
+2026-10-07,CA_1,Diet Coke,10,10,Wednesday,False
+2026-10-07,CA_1,Sprite,8,8,Wednesday,False
+2026-10-07,CA_1,Fanta,6,6,Wednesday,False
+2026-10-07,CA_1,Doritos,12,5,Wednesday,False
+2026-10-07,CA_1,Lays,12,5,Wednesday,False
+2026-10-07,CA_1,Colgate Toothpaste,4,4,Wednesday,False
+2026-10-07,CA_1,Dove Soap,4,4,Wednesday,False
+2026-10-08,CA_1,Coca-Cola,14,14,Thursday,False
+2026-10-08,CA_1,Diet Coke,7,7,Thursday,False
+2026-10-08,CA_1,Sprite,12,5,Thursday,False
+2026-10-08,CA_1,Fanta,8,8,Thursday,False
+2026-10-08,CA_1,Doritos,13,13,Thursday,False
+2026-10-08,CA_1,Lays,11,11,Thursday,False
+2026-10-08,CA_1,Colgate Toothpaste,2,2,Thursday,False
+2026-10-08,CA_1,Dove Soap,5,5,Thursday,False
+2026-10-09,CA_1,Coca-Cola,13,13,Friday,False
+2026-10-09,CA_1,Diet Coke,6,6,Friday,False
+2026-10-09,CA_1,Sprite,8,8,Friday,False
+2026-10-09,CA_1,Fanta,7,3,Friday,False
+2026-10-09,CA_1,Doritos,14,14,Friday,False
+2026-10-09,CA_1,Lays,14,14,Friday,False
+2026-10-09,CA_1,Colgate Toothpaste,4,4,Friday,False
+2026-10-09,CA_1,Dove Soap,3,3,Friday,False
+2026-10-10,CA_1,Coca-Cola,17,7,Saturday,True
+2026-10-10,CA_1,Diet Coke,13,13,Saturday,True
+2026-10-10,CA_1,Sprite,15,15,Saturday,True
+2026-10-10,CA_1,Fanta,6,6,Saturday,True
+2026-10-10,CA_1,Doritos,22,22,Saturday,True
+2026-10-10,CA_1,Lays,20,20,Saturday,True
+2026-10-10,CA_1,Colgate Toothpaste,4,2,Saturday,True
+2026-10-10,CA_1,Dove Soap,7,7,Saturday,True
+2026-10-11,CA_1,Coca-Cola,18,18,Sunday,True
+2026-10-11,CA_1,Diet Coke,14,14,Sunday,True
+2026-10-11,CA_1,Sprite,14,14,Sunday,True
+2026-10-11,CA_1,Fanta,6,6,Sunday,True
+2026-10-11,CA_1,Doritos,17,17,Sunday,True
+2026-10-11,CA_1,Lays,14,14,Sunday,True
+2026-10-11,CA_1,Colgate Toothpaste,7,7,Sunday,True
+2026-10-11,CA_1,Dove Soap,7,7,Sunday,True
+2026-10-12,CA_1,Coca-Cola,12,12,Monday,False
+2026-10-12,CA_1,Diet Coke,7,7,Monday,False
+2026-10-12,CA_1,Sprite,9,9,Monday,False
+2026-10-12,CA_1,Fanta,6,6,Monday,False
+2026-10-12,CA_1,Doritos,15,15,Monday,False
+2026-10-12,CA_1,Lays,14,14,Monday,False
+2026-10-12,CA_1,Colgate Toothpaste,6,6,Monday,False
+2026-10-12,CA_1,Dove Soap,5,5,Monday,False
+2026-10-13,CA_1,Coca-Cola,12,12,Tuesday,False
+2026-10-13,CA_1,Diet Coke,9,3,Tuesday,False
+2026-10-13,CA_1,Sprite,11,11,Tuesday,False
+2026-10-13,CA_1,Fanta,6,6,Tuesday,False
+2026-10-13,CA_1,Doritos,13,5,Tuesday,False
+2026-10-13,CA_1,Lays,11,11,Tuesday,False
+2026-10-13,CA_1,Colgate Toothpaste,5,5,Tuesday,False
+2026-10-13,CA_1,Dove Soap,4,4,Tuesday,False
+2026-10-14,CA_1,Coca-Cola,12,5,Wednesday,False
+2026-10-14,CA_1,Diet Coke,8,3,Wednesday,False
+2026-10-14,CA_1,Sprite,11,11,Wednesday,False
+2026-10-14,CA_1,Fanta,8,3,Wednesday,False
+2026-10-14,CA_1,Doritos,15,15,Wednesday,False
+2026-10-14,CA_1,Lays,11,11,Wednesday,False
+2026-10-14,CA_1,Colgate Toothpaste,3,3,Wednesday,False
+2026-10-14,CA_1,Dove Soap,6,2,Wednesday,False
+2026-10-15,CA_1,Coca-Cola,14,14,Thursday,False
+2026-10-15,CA_1,Diet Coke,7,7,Thursday,False
+2026-10-15,CA_1,Sprite,11,11,Thursday,False
+2026-10-15,CA_1,Fanta,6,6,Thursday,False
+2026-10-15,CA_1,Doritos,14,5,Thursday,False
+2026-10-15,CA_1,Lays,10,10,Thursday,False
+2026-10-15,CA_1,Colgate Toothpaste,4,4,Thursday,False
+2026-10-15,CA_1,Dove Soap,5,5,Thursday,False
+2026-10-16,CA_1,Coca-Cola,13,13,Friday,False
+2026-10-16,CA_1,Diet Coke,8,8,Friday,False
+2026-10-16,CA_1,Sprite,9,9,Friday,False
+2026-10-16,CA_1,Fanta,8,8,Friday,False
+2026-10-16,CA_1,Doritos,14,6,Friday,False
+2026-10-16,CA_1,Lays,11,11,Friday,False
+2026-10-16,CA_1,Colgate Toothpaste,4,4,Friday,False
+2026-10-16,CA_1,Dove Soap,4,4,Friday,False
+2026-10-17,CA_1,Coca-Cola,20,20,Saturday,True
+2026-10-17,CA_1,Diet Coke,8,8,Saturday,True
+2026-10-17,CA_1,Sprite,14,14,Saturday,True
+2026-10-17,CA_1,Fanta,8,8,Saturday,True
+2026-10-17,CA_1,Doritos,22,22,Saturday,True
+2026-10-17,CA_1,Lays,18,18,Saturday,True
+2026-10-17,CA_1,Colgate Toothpaste,7,7,Saturday,True
+2026-10-17,CA_1,Dove Soap,8,8,Saturday,True
+2026-10-18,CA_1,Coca-Cola,14,14,Sunday,True
+2026-10-18,CA_1,Diet Coke,14,14,Sunday,True
+2026-10-18,CA_1,Sprite,14,6,Sunday,True
+2026-10-18,CA_1,Fanta,10,10,Sunday,True
+2026-10-18,CA_1,Doritos,20,20,Sunday,True
+2026-10-18,CA_1,Lays,14,14,Sunday,True
+2026-10-18,CA_1,Colgate Toothpaste,7,7,Sunday,True
+2026-10-18,CA_1,Dove Soap,10,10,Sunday,True
+2026-10-19,CA_1,Coca-Cola,14,14,Monday,False
+2026-10-19,CA_1,Diet Coke,7,7,Monday,False
+2026-10-19,CA_1,Sprite,11,11,Monday,False
+2026-10-19,CA_1,Fanta,6,6,Monday,False
+2026-10-19,CA_1,Doritos,14,14,Monday,False
+2026-10-19,CA_1,Lays,10,10,Monday,False
+2026-10-19,CA_1,Colgate Toothpaste,5,5,Monday,False
+2026-10-19,CA_1,Dove Soap,4,4,Monday,False
+2026-10-20,CA_1,Coca-Cola,10,4,Tuesday,False
+2026-10-20,CA_1,Diet Coke,8,8,Tuesday,False
+2026-10-20,CA_1,Sprite,12,12,Tuesday,False
+2026-10-20,CA_1,Fanta,6,6,Tuesday,False
+2026-10-20,CA_1,Doritos,13,13,Tuesday,False
+2026-10-20,CA_1,Lays,12,12,Tuesday,False
+2026-10-20,CA_1,Colgate Toothpaste,6,6,Tuesday,False
+2026-10-20,CA_1,Dove Soap,7,7,Tuesday,False
+2026-10-21,CA_1,Coca-Cola,13,13,Wednesday,False
+2026-10-21,CA_1,Diet Coke,9,9,Wednesday,False
+2026-10-21,CA_1,Sprite,11,11,Wednesday,False
+2026-10-21,CA_1,Fanta,6,6,Wednesday,False
+2026-10-21,CA_1,Doritos,12,12,Wednesday,False
+2026-10-21,CA_1,Lays,10,10,Wednesday,False
+2026-10-21,CA_1,Colgate Toothpaste,3,3,Wednesday,False
+2026-10-21,CA_1,Dove Soap,3,3,Wednesday,False
+2026-10-22,CA_1,Coca-Cola,12,12,Thursday,False
+2026-10-22,CA_1,Diet Coke,8,8,Thursday,False
+2026-10-22,CA_1,Sprite,8,8,Thursday,False
+2026-10-22,CA_1,Fanta,5,5,Thursday,False
+2026-10-22,CA_1,Doritos,15,15,Thursday,False
+2026-10-22,CA_1,Lays,14,6,Thursday,False
+2026-10-22,CA_1,Colgate Toothpaste,4,4,Thursday,False
+2026-10-22,CA_1,Dove Soap,7,7,Thursday,False
+2026-10-23,CA_1,Coca-Cola,12,12,Friday,False
+2026-10-23,CA_1,Diet Coke,6,6,Friday,False
+2026-10-23,CA_1,Sprite,12,12,Friday,False
+2026-10-23,CA_1,Fanta,5,5,Friday,False
+2026-10-23,CA_1,Doritos,16,16,Friday,False
+2026-10-23,CA_1,Lays,10,10,Friday,False
+2026-10-23,CA_1,Colgate Toothpaste,2,1,Friday,False
+2026-10-23,CA_1,Dove Soap,4,4,Friday,False
+2026-10-24,CA_1,Coca-Cola,17,17,Saturday,True
+2026-10-24,CA_1,Diet Coke,10,10,Saturday,True
+2026-10-24,CA_1,Sprite,15,15,Saturday,True
+2026-10-24,CA_1,Fanta,7,7,Saturday,True
+2026-10-24,CA_1,Doritos,22,22,Saturday,True
+2026-10-24,CA_1,Lays,15,6,Saturday,True
+2026-10-24,CA_1,Colgate Toothpaste,6,6,Saturday,True
+2026-10-24,CA_1,Dove Soap,4,4,Saturday,True
+2026-10-25,CA_1,Coca-Cola,20,20,Sunday,True
+2026-10-25,CA_1,Diet Coke,13,13,Sunday,True
+2026-10-25,CA_1,Sprite,17,17,Sunday,True
+2026-10-25,CA_1,Fanta,11,11,Sunday,True
+2026-10-25,CA_1,Doritos,22,22,Sunday,True
+2026-10-25,CA_1,Lays,15,15,Sunday,True
+2026-10-25,CA_1,Colgate Toothpaste,3,3,Sunday,True
+2026-10-25,CA_1,Dove Soap,4,4,Sunday,True
+2026-10-26,CA_1,Coca-Cola,12,12,Monday,False
+2026-10-26,CA_1,Diet Coke,9,4,Monday,False
+2026-10-26,CA_1,Sprite,8,8,Monday,False
+2026-10-26,CA_1,Fanta,5,5,Monday,False
+2026-10-26,CA_1,Doritos,16,16,Monday,False
+2026-10-26,CA_1,Lays,14,14,Monday,False
+2026-10-26,CA_1,Colgate Toothpaste,3,3,Monday,False
+2026-10-26,CA_1,Dove Soap,6,6,Monday,False
+2026-10-27,CA_1,Coca-Cola,12,5,Tuesday,False
+2026-10-27,CA_1,Diet Coke,8,8,Tuesday,False
+2026-10-27,CA_1,Sprite,10,10,Tuesday,False
+2026-10-27,CA_1,Fanta,6,6,Tuesday,False
+2026-10-27,CA_1,Doritos,16,16,Tuesday,False
+2026-10-27,CA_1,Lays,13,13,Tuesday,False
+2026-10-27,CA_1,Colgate Toothpaste,4,4,Tuesday,False
+2026-10-27,CA_1,Dove Soap,6,6,Tuesday,False
+2026-10-28,CA_1,Coca-Cola,12,12,Wednesday,False
+2026-10-28,CA_1,Diet Coke,8,8,Wednesday,False
+2026-10-28,CA_1,Sprite,8,3,Wednesday,False
+2026-10-28,CA_1,Fanta,7,7,Wednesday,False
+2026-10-28,CA_1,Doritos,13,13,Wednesday,False
+2026-10-28,CA_1,Lays,10,10,Wednesday,False
+2026-10-28,CA_1,Colgate Toothpaste,5,5,Wednesday,False
+2026-10-28,CA_1,Dove Soap,5,5,Wednesday,False
+2026-10-29,CA_1,Coca-Cola,12,5,Thursday,False
+2026-10-29,CA_1,Diet Coke,9,9,Thursday,False
+2026-10-29,CA_1,Sprite,9,9,Thursday,False
+2026-10-29,CA_1,Fanta,6,6,Thursday,False
+2026-10-29,CA_1,Doritos,14,14,Thursday,False
+2026-10-29,CA_1,Lays,14,14,Thursday,False
+2026-10-29,CA_1,Colgate Toothpaste,5,5,Thursday,False
+2026-10-29,CA_1,Dove Soap,5,5,Thursday,False
+2026-10-30,CA_1,Coca-Cola,11,11,Friday,False
+2026-10-30,CA_1,Diet Coke,10,10,Friday,False
+2026-10-30,CA_1,Sprite,8,3,Friday,False
+2026-10-30,CA_1,Fanta,7,7,Friday,False
+2026-10-30,CA_1,Doritos,12,12,Friday,False
+2026-10-30,CA_1,Lays,14,14,Friday,False
+2026-10-30,CA_1,Colgate Toothpaste,6,6,Friday,False
+2026-10-30,CA_1,Dove Soap,5,5,Friday,False
+2026-10-31,CA_1,Coca-Cola,18,18,Saturday,True
+2026-10-31,CA_1,Diet Coke,14,14,Saturday,True
+2026-10-31,CA_1,Sprite,11,11,Saturday,True
+2026-10-31,CA_1,Fanta,11,11,Saturday,True
+2026-10-31,CA_1,Doritos,22,22,Saturday,True
+2026-10-31,CA_1,Lays,20,20,Saturday,True
+2026-10-31,CA_1,Colgate Toothpaste,6,2,Saturday,True
+2026-10-31,CA_1,Dove Soap,8,8,Saturday,True
+2026-11-01,CA_1,Coca-Cola,17,17,Sunday,True
+2026-11-01,CA_1,Diet Coke,11,11,Sunday,True
+2026-11-01,CA_1,Sprite,14,14,Sunday,True
+2026-11-01,CA_1,Fanta,7,7,Sunday,True
+2026-11-01,CA_1,Doritos,17,17,Sunday,True
+2026-11-01,CA_1,Lays,20,20,Sunday,True
+2026-11-01,CA_1,Colgate Toothpaste,4,4,Sunday,True
+2026-11-01,CA_1,Dove Soap,7,7,Sunday,True
+2026-11-02,CA_1,Coca-Cola,14,14,Monday,False
+2026-11-02,CA_1,Diet Coke,10,10,Monday,False
+2026-11-02,CA_1,Sprite,11,11,Monday,False
+2026-11-02,CA_1,Fanta,4,4,Monday,False
+2026-11-02,CA_1,Doritos,16,16,Monday,False
+2026-11-02,CA_1,Lays,11,11,Monday,False
+2026-11-02,CA_1,Colgate Toothpaste,2,2,Monday,False
+2026-11-02,CA_1,Dove Soap,6,6,Monday,False
+2026-11-03,CA_1,Coca-Cola,11,11,Tuesday,False
+2026-11-03,CA_1,Diet Coke,7,3,Tuesday,False
+2026-11-03,CA_1,Sprite,11,11,Tuesday,False
+2026-11-03,CA_1,Fanta,8,8,Tuesday,False
+2026-11-03,CA_1,Doritos,16,16,Tuesday,False
+2026-11-03,CA_1,Lays,11,11,Tuesday,False
+2026-11-03,CA_1,Colgate Toothpaste,6,6,Tuesday,False
+2026-11-03,CA_1,Dove Soap,4,4,Tuesday,False

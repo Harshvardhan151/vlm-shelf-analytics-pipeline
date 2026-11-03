@@ -1,6 +1,5 @@
 {
-  "section_name": "Aisle 3 - Carbonated Soft Drinks",
-  "expected_items": [
+  "Beverages Aisle": [
     {
       "brand_name": "Coca-Cola",
       "expected_facings": 6,
@@ -20,6 +19,30 @@
       "brand_name": "Fanta",
       "expected_facings": 3,
       "expected_shelf_level": "Bottom"
+    }
+  ],
+  "Snacks Aisle": [
+    {
+      "brand_name": "Doritos",
+      "expected_facings": 5,
+      "expected_shelf_level": "Middle"
+    },
+    {
+      "brand_name": "Lays",
+      "expected_facings": 5,
+      "expected_shelf_level": "Middle"
+    }
+  ],
+  "Household Aisle": [
+    {
+      "brand_name": "Colgate Toothpaste",
+      "expected_facings": 8,
+      "expected_shelf_level": "Eye-Level"
+    },
+    {
+      "brand_name": "Dove Soap",
+      "expected_facings": 6,
+      "expected_shelf_level": "Eye-Level"
     }
   ]
 }
