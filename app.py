@@ -253,20 +253,79 @@ with tab_audit:
 # ---------------------------------------------------------
 with tab_history:
     ui.spacer()
-    with st.container(border=True):
-        ui.heading("30-Day Store Compliance Trend", "Average visual shelf health across the store")
-        daily_comp = raw_sales_df.groupby("date")["compliance_score"].mean().reset_index()
-        st.plotly_chart(charts.compliance_trend(daily_comp), use_container_width=True)
+    
+    col_trend, col_lost_rev = st.columns([1, 1], gap="medium")
+    with col_trend:
+        with st.container(border=True):
+            ui.heading("30-Day Store Compliance Trend", "Average visual shelf health across the store")
+            daily_comp = raw_sales_df.groupby("date")["compliance_score"].mean().reset_index()
+            st.plotly_chart(charts.compliance_trend(daily_comp), use_container_width=True)
+            
+    with col_lost_rev:
+        with st.container(border=True):
+            ui.heading("Estimated Lost Revenue Impact by SKU", "Revenue lost to missing product facings over the timeline")
+            # Create price map and calculate lost volume & revenue
+            price_map = {"Coca-Cola": 2.50, "Diet Coke": 2.50, "Sprite": 2.50, "Fanta": 2.50, "Doritos": 4.50, "Lays": 4.50, "Colgate Toothpaste": 6.50, "Dove Soap": 5.00}
+            raw_sales_df["price"] = raw_sales_df["brand_name"].map(price_map).fillna(3.00)
+            raw_sales_df["lost_volume"] = (raw_sales_df["baseline_demand"] - raw_sales_df["actual_sales"]).clip(lower=0)
+            raw_sales_df["lost_revenue"] = raw_sales_df["lost_volume"] * raw_sales_df["price"]
+            
+            # Aggregate historical loss metrics
+            sku_losses = raw_sales_df.groupby("brand_name")["lost_revenue"].sum().reset_index().sort_values(by="lost_revenue", ascending=True)
+            sku_losses.columns = ["SKU", "Lost Revenue ($)"]
+            
+            import plotly.express as px
+            fig_bar = px.bar(
+                sku_losses, x="Lost Revenue ($)", y="SKU", orientation="h",
+                text="Lost Revenue ($)", color="Lost Revenue ($)",
+                color_continuous_scale="OrRd"
+            )
+            fig_bar.update_traces(texttemplate="$%{text:,.0f}", textposition="outside")
+            fig_bar.update_layout(showlegend=False, margin=dict(l=10, r=40, t=10, b=10), height=310, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+            st.plotly_chart(fig_bar, use_container_width=True)
 
     ui.spacer()
-    with st.container(border=True):
-        ui.heading("Vulnerability Heatmap", "Historical stockouts by weekday and SKU")
-        raw_sales_df['day_of_week'] = raw_sales_df['date'].dt.day_name()
-        heatmap_data = raw_sales_df[raw_sales_df['has_stockout'] == True].groupby(['day_of_week', 'brand_name']).size().reset_index(name='stockout_count')
-        if not heatmap_data.empty:
-            st.plotly_chart(charts.stockout_heatmap(heatmap_data), use_container_width=True)
-        else:
-            st.info("Not enough historical stockout data to generate a heatmap.")
+    
+    col_heatmap, col_demand = st.columns([1, 1], gap="medium")
+    with col_heatmap:
+        with st.container(border=True):
+            ui.heading("Vulnerability Heatmap", "Historical stockouts by weekday and SKU")
+            raw_sales_df['day_of_week'] = raw_sales_df['date'].dt.day_name()
+            heatmap_data = raw_sales_df[raw_sales_df['has_stockout'] == True].groupby(['day_of_week', 'brand_name']).size().reset_index(name='stockout_count')
+            if not heatmap_data.empty:
+                st.plotly_chart(charts.stockout_heatmap(heatmap_data), use_container_width=True)
+            else:
+                st.info("Not enough historical stockout data to generate a heatmap.")
+                
+    with col_demand:
+        with st.container(border=True):
+            ui.heading("Actual vs. Baseline Demand over Time", "Volume impact of demand censorship & shelf non-compliance")
+            agg_timeline = raw_sales_df.groupby("date")[["actual_sales", "baseline_demand"]].sum().reset_index()
+            agg_timeline["lost_sales_gap"] = (agg_timeline["baseline_demand"] - agg_timeline["actual_sales"]).clip(lower=0)
+            
+            import plotly.graph_objects as go
+            fig_area = go.Figure()
+            # Bottom Layer: Actual Sales (blue/cyan)
+            fig_area.add_trace(go.Scatter(
+                x=agg_timeline["date"], y=agg_timeline["actual_sales"],
+                mode="lines", name="Actual Sales",
+                fill="tozeroy", fillcolor="rgba(31, 119, 180, 0.4)",
+                line=dict(color="#1f77b4", width=1.5)
+            ))
+            # Stacked Layer: Gaps / Missed Demand (Crimson Red)
+            fig_area.add_trace(go.Scatter(
+                x=agg_timeline["date"], y=agg_timeline["baseline_demand"],
+                mode="lines", name="Missed Demand (Gaps)",
+                fill="tonexty", fillcolor="rgba(214, 39, 40, 0.45)",
+                line=dict(color="#d62728", width=1.5)
+            ))
+            fig_area.update_layout(
+                yaxis_title="Volume Demand (Units)", hovermode="x unified",
+                margin=dict(l=10, r=10, t=10, b=10), height=315,
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+                paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)'
+            )
+            st.plotly_chart(fig_area, use_container_width=True)
 
     ui.spacer()
     with st.expander("View historical dataset"):
